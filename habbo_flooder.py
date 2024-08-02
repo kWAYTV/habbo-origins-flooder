@@ -82,7 +82,7 @@ for key in keybinds:
     tab = tab_control.add(key)
     frame = ctk.CTkFrame(tab)
     frame.pack(pady=20, padx=20, fill="both", expand=True)
-    
+
     label = ctk.CTkLabel(frame, text=f"Enter the phrase to flood for {key}:")
     label.pack(pady=10)
 
