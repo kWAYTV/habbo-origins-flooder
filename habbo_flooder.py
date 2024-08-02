@@ -75,9 +75,8 @@ tab_control = ctk.CTkTabview(app)
 tab_control.pack(expand=1, fill="both", padx=20, pady=10)
 
 text_inputs = {}
-
-stop_key = "F12"
 keybinds = ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11"]
+stop_key = "F12"
 
 for key in keybinds:
     tab = tab_control.add(key)
